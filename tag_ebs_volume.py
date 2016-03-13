@@ -8,7 +8,6 @@ import boto3.ec2
 
 aws_access_key_id = "AKIAX12345MZZXXAMMA"  #replace with your accesskey
 aws_secret_access_key = "7sZRTasdad1234asdfgh12345sdfghj23456sdfg" #replace with your secret key
-                                                                 1
 region_name = 'us-east-1'
 
 def tag_ebs_volumes(event, context):
